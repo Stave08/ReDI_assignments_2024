@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand-in assignment</title>
+    <link rel="stylesheet" href="styles_assigment1.css"> <!--elemento que enlaza, deciendo que es una hoja de estilos y menciona la URL especifica del archivo, se usa exclusivamente para enlazar archivos con estilos, por eso el elemento para java script es diferente. -->
+    <script src="script_assigment1.js"></script>
+
+</head>
+<body>
+    <h1>Hand-in assignment #1</h1>
+    
+    <div class="flex-container">
+        <div class="flex-item">
+            <p id="counter">0</p> <!--Displays the current value of the counter-->
+        </div>
+
+        <div class="flex-item2">
+            <button onclick="increment()">+</button> <!--Creates a botton with the simbol + -->
+            <button onclick="decrement()">-</button>
+        </div>
+        
+        <div class="flex-item3">
+            <!--Creates a reset button which name is "Reset", and when click on it executes the function in resetCounter()-->
+            <button onclick="resetCounter()">Reset</button> 
+        </div>      
+    </div>
+
+    
+    
+</body>
+</html>
