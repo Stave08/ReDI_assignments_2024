@@ -1,0 +1,90 @@
+/* body{
+    background-color: rgb(145, 145, 248);
+} */
+
+body{
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.flex-container {
+    display:flex;
+    height: 400px;
+    width: 250px;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(168, 143, 110);
+    
+}
+
+.flex-item {
+    background-color: rgb(190, 190, 89);
+    width: 200px;
+    margin: 20px 5px 20px 5px; /*each number change a margin startingn from top, then right, bottom, and left. */
+    text-align: center;
+    font-size: 80px;
+    /*object-fit: cover; to achieve that the image always be contained into the item flex even if I change the dimensions of the item. */
+    border-radius: 20px; /* Adjust the value to control the roundness */
+    align-self: auto;
+
+}
+
+.flex-item2 {
+    background-color: rgb(168, 143, 110);
+    width: 150px;
+    height: 280px;
+    /* margin: 6px 2px 15px 2px; */
+    /* gap: 200px; */
+    text-align: center;
+    align-content: space-around;
+}
+
+.flex-item3 {
+    background-color:rgb(168, 143, 110);
+    width: 100px;
+    height: 250px;
+    margin: 6px 2px 15px 2px;
+    align-self: auto;
+    text-align: center;
+    align-content: space-around;
+}
+
+.increment-button {
+    background-color: rgb(148, 105, 50);
+    padding: 6px 12px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.decrement-button {
+    background-color: rgb(148, 105, 50);
+    padding: 6px 15px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.reset-button {
+    background-color: rgb(148, 105, 50);
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+

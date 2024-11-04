@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand-in assignment 2</title>
+    <link rel="stylesheet" href="styles_assignment2.css"> 
+    <script src="script_assignment2.js"></script>
+
+</head>
+<body>
+    <h1>Hand-in assignment #2</h1>
+    
+    <div class="flex-container">
+        <div class="flex-item">
+            <p id="counter">0</p> <!--Displays the current value of the counter-->
+        </div>
+
+        <div class="flex-item2">
+            <button id= "increment" class="increment-button" onclick="increment()">+</button> <!--Creates a botton with the simbol + -->
+            <button id= "decrement" class="decrement-button" onclick="decrement()">-</button>
+        </div>
+        
+        <div class="flex-item3">
+            <!--Creates a reset button which name is "Reset", and when click on it executes the function in resetCounter()-->
+            <button id= "reset" class="reset-button" onclick="resetCounter()">Reset</button> 
+        </div>      
+    </div>
+    <br>
+    <span id="message" style="display: none;" id="font">You have free shipping</span>
+ 
+    <span id="stock" style="display: none;">Out of stock</span>
+
+    
+    
+</body>
+</html>
